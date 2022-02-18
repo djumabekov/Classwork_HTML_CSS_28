@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 500px;
+}
+
+.info{
+    font-style: italic;
+}
+
+fieldset{
+    margin-bottom: 40px;
+}
+
+.inputInfo{
+    height: 20px;
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+select{
+    width: 172px;
+}
+
+.inputInfo2{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content:center;
+    justify-content: space-around;
+}
